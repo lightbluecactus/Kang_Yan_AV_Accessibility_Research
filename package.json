@@ -1,0 +1,31 @@
+{
+  "name": "kang_yan_av_accessibility_research",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightbluecactus/Kang_Yan_AV_Accessibility_Research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightbluecactus/Kang_Yan_AV_Accessibility_Research/issues"
+  },
+  "homepage": "https://github.com/lightbluecactus/Kang_Yan_AV_Accessibility_Research#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.9"
+  }
+}

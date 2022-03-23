@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: none;
+}
