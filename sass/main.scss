@@ -3,5 +3,65 @@
 @import "modules/reset";
 @import "modules/vars";
 @import "modules/queries";
+@import "modules/homepage";
+@import "modules/video";
+@import "modules/audio";
+@import "modules/404";
 
 @import "modules/defaults";
+
+#container {
+    margin: 0;
+    background-color: $light;
+    min-height: 100vh;
+
+}
+
+  
+.mainNav {
+    padding: 8vh 5vw;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.mainNav li {
+    margin-right: 25px;
+}
+
+.mainNav li a {
+    color: $green;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.mainNav li a:hover {
+    background-color: $yellow;
+    color: $dark;
+    border-radius: 25px;
+}
+
+.footerNav {
+    margin-top: 10vh;
+    padding: 8vh 5vw;
+}
+
+.footerNav li {
+    margin-bottom: 20px;
+}
+
+.footerNav li a {
+    color: $green;
+    font-size: 18px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.footerNav li a:hover {
+    background-color: $yellow;
+    color: $dark;
+    border-radius: 25px;
+}

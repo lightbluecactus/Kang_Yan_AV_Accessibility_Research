@@ -1,0 +1,38 @@
+#audioCon {
+    margin: 7vh 5vw;
+}
+
+audio {
+    width: 25vw;
+}
+
+#audioScript {
+    margin: 7vh 5vw;
+}
+
+#audioScript h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#audioScript button {
+    font-size: 20px;
+    color: $green;
+    border-style: none;
+    padding: 7px 12px;
+    background-color: $yellow;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+#audioScript button:hover {
+    background-color: $yellow;
+    color: $dark;
+    border-radius: 25px;
+}
+
+#transcript {
+    margin-top: 5vh;
+    line-height: 32px;
+}
