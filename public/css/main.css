@@ -1,17 +1,1 @@
-@charset "UTF-8";
-/* CSS Document */
-
-.hidden
-{
-	display: none;
-}
-
-a 
-{
-	text-decoration: none;
-}
-
-ul
-{
-	list-style-type: none;
-}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}a{text-decoration:none}ul{list-style-type:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.hidden{display:none}#introduction{margin:0 5vw}#introduction h2{font-size:42px;margin-bottom:30px}#introduction p{line-height:28px}#introTips{margin-top:25px;margin-bottom:10vh}#introduction img{max-width:90vw;filter:brightness(0.9)}#videoCon{margin:7vh 0}video{width:100vw}@media screen and (min-width: 768px){#videoCon{margin:7vh 12vw}video{width:76vw}}#audioCon{margin:7vh 5vw}audio{width:25vw}#audioScript{margin:7vh 5vw}#audioScript h2{font-size:32px;margin-bottom:20px}#audioScript button{font-size:20px;color:#05595b;border-style:none;padding:7px 12px;background-color:#e2d784;border-radius:10px;cursor:pointer;transition:all .3s ease-in}#audioScript button:hover{background-color:#e2d784;color:#062c30;border-radius:25px}#transcript{margin-top:5vh;line-height:32px}#notFoundCon{margin:7vh 5vw}#notFoundCon h2{font-size:42px;margin-bottom:30px}#notFoundCon p{line-height:28px}body{color:#062c30;font-size:20px;font-family:"Lato",arial,sans-serif;font-weight:400}h1,h2,h3{font-weight:700}#container{margin:0;background-color:#f5f5f5;min-height:100vh}.mainNav{padding:8vh 5vw;margin-bottom:7vh;display:flex;flex-direction:row}.mainNav li{margin-right:25px}.mainNav li a{color:#05595b;font-size:24px;padding:5px 10px;border-radius:10px;transition:all .3s ease-in}.mainNav li a:hover{background-color:#e2d784;color:#062c30;border-radius:25px}.footerNav{margin-top:10vh;padding:8vh 5vw}.footerNav li{margin-bottom:20px}.footerNav li a{color:#05595b;font-size:18px;padding:2px 5px;border-radius:10px;transition:all .3s ease-in}.footerNav li a:hover{background-color:#e2d784;color:#062c30;border-radius:25px}
