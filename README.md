@@ -1,7 +1,7 @@
 # Audio and Video Accessibility Research Project
 
 This project focuses on web accessibility and making media as avaliable to everyone as possible.
-For video and audio player, this project includes (Plyr)[https://plyr.io/] to enable customize control and transcript.
+For video and audio player, this project includes [Plyr](https://plyr.io/) to enable customize control and transcript.
 
 ## Prerequisites
 Need a browser and a local server to open the project.
@@ -9,16 +9,16 @@ Need a browser and a local server to open the project.
 ## Usage
 
 ### Heroku site
-link to (Heroku site)[https://av-accessibility-research.herokuapp.com/]
+link to [Heroku site](https://av-accessibility-research.herokuapp.com/)
 
 ### Local server
-download WAMP/MAMP/LAMP depend on your system, run local server. Dowonload this project or `git clone` to your server directory, open a terminal window and `cd` to the project directory, run command `node app` and `nodemon app` open browser and go to [localhost:3000]. Then you should see the web page.
+download WAMP/MAMP/LAMP depend on your system, run local server. Dowonload this project or `git clone` to your server directory, open a terminal window and `cd` to the project directory, run command `node app` and `nodemon app` open browser and go to localhost:3000. Then you should see the web page.
 
 ## Accessibility Research Notes
-Link to (Google doc)[https://docs.google.com/document/d/1qWBWbYDoQ2mLjWf4LzWKDPmHa7Y5VLVACSZpT0pqX6s/edit?usp=sharing]
+Link to [Google doc](https://docs.google.com/document/d/1qWBWbYDoQ2mLjWf4LzWKDPmHa7Y5VLVACSZpT0pqX6s/edit?usp=sharing)
 
 ## Reference
-(Plyr.io)[https://plyr.io/]
+[Plyr.io](https://plyr.io/)
 
 ## License
 MIT License
