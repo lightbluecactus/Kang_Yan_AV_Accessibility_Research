@@ -7,6 +7,8 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/demo.css" />
 		<link href="/css/main.css" rel="stylesheet" type="text/css">
 		
 	</head>
@@ -27,15 +29,21 @@
 
             <section id="audioCon">
 				<h2 class="hidden">Audio container</h2>
-                <audio controls>
+                <audio controls crossorigin playsinline id="player">
 					<source src="/audio/the-haunting-of-bly-manor-trailor.mp3" type="audio/mp3">
 					<source src="/audio/the-haunting-of-bly-manor-trailor.ogg" type="audio/ogg">
 				</audio>
             </section>
 
+            <section class="tips">
+                <h3>Tips:</h3>
+                <p>Hit your Tab key to navigate through buttons.</p>
+                <p>Click on the Expand button to show transcript, click again to hide it.</p>
+            </section>
+
             <section id="audioScript">
                 <h2>Audio Transcript</h2>
-                <button>Expand/Hide</button>
+                <button id="transcriptBtn">Expand</button>
                 <ul id="transcript">
                     <li>[00:00:00] (A girl singing) We lay my love and I</li>
                     <li>[00:00:04] I have a story.</li>
@@ -70,6 +78,7 @@
             </footer>
             
         </main>
+        <script src="https://cdn.plyr.io/3.6.12/demo.js" crossorigin="anonymous"></script>
 		<script src="/js/main.js" type="module" defer></script>
 	</body>
 
