@@ -7,7 +7,9 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-		<link href="/css/main.css" rel="stylesheet" type="text/css">
+		
+        <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/demo.css" />
+        <link href="/css/main.css" rel="stylesheet" type="text/css">
 		
 	</head>
 	<body>
@@ -25,13 +27,21 @@
                 </nav>
             </header>
 
-            <section id="videoCon">
+            <section id="videoPanel">
 				<h2 class="hidden">Video container</h2>
-                <video controls>
+                <video controls crossorigin playsinline id="player" captions="{ active: true, language: 'English', update: false }">
 					<source src="/video/the-haunting-of-bly-manor-trailor.mp4" type="video/mp4">
 					<source src="/video/the-haunting-of-bly-manor-trailor.webm" type="video/webm">
-					<track kind="subtitles" src="/video/transcript.vtt" srclang="en">
+					<track kind="subtitles" src="transcript.vtt" srclang="en" label="English">
 				</video>
+                
+            </section>
+
+            <section class="tips">
+                <h3>Tips:</h3>
+                <p>Hit your Tab key to navigate through buttons.</p>
+                <p>To toggle subtitle of the video, go to Settings -> Captions -> choose English or Disabled, </p>
+                <p> then turn on or off CC icon. </p>
             </section>
 
             <footer>
@@ -47,6 +57,7 @@
             
         </main>
 		<script src="/js/main.js" type="module" defer></script>
+        <script src="https://cdn.plyr.io/3.6.12/demo.js" crossorigin="anonymous"></script>
 	</body>
 
 </html>

@@ -8,3 +8,34 @@ body {
 h1, h2, h3 {
     font-weight: 700;
 }
+
+p {
+    letter-spacing: 1px;
+}
+
+html {
+    --plyr-color-main: #E2D784 !important;
+}
+
+// reset for plyr
+html {
+    background: none;
+    width: 100vw;
+}
+
+main {
+    text-align: left;
+}
+
+
+a:after, button.faux-link:after {
+    background: none;
+    content: "";
+    height: 0;
+    left: 0;
+    position: inherit;
+    top: 0;
+    transform: none;
+    transition: none;
+    width: 0;
+}
